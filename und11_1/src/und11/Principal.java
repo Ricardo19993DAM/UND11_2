@@ -90,19 +90,19 @@ public class Principal {
 		}
 		 */
 		//iterartor
-		
+		/*
 		Iterator<Alumno> al=alumnos.values().iterator();
 		while(al.hasNext()) {
 			al.next().getDatos();
 		}
-		 
+		 */
 		//List Iterator
-		/*
-		ListIterator<Alumno> al=alumnos.listIterator();
+		
+		ListIterator<Alumno> al=(ListIterator<Alumno>) alumnos.values().iterator();
 		while(al.hasNext()) {
 			al.next().getDatos();
 		}
-		 */
+		
 
 	}
 
